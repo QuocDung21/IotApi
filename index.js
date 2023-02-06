@@ -10,4 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 connect
 
 app.use('/dht', dht);
+app.use('/', (req, res,) => {
+    res.json("Hello World!")
+})
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
