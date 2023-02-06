@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
 mongoose.set('strictQuery', false)
-module.exports = mongoose.connect('mongodb+srv://lapthuan:lapthuan@cluster0.obtnrxv.mongodb.net/?retryWrites=true&w=majority')
+module.exports = mongoose.connect('mongodb+srv://quocdung:123@quocdung.milm4.mongodb.net/test')
     .then(() => console.log('Connected!'))
     .catch(err => console.log(err.message))
